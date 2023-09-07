@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="hadatetimepicker" Version="1.4.2" />
+    <PackageReference Include="Krypton.Toolkit" Version="70.22.11.312" />
+    <PackageReference Include="MySqlConnector" Version="2.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Forms\AddOpSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddLabReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddPrescription.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\RescheduleApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\BookAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ReportAppointment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\EditPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PatientList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DiagnoseModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddDiagnose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PaymentModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\PatientModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\EditClinic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddClinic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ClinicModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\EditResource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddResource.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\RoomModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ResourceView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\ResourcesModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\EditMedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\MedicineModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\EditDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\AddDoctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\DoctorModule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

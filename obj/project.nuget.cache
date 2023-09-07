@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "NBXgm7/EfsHrdLj/8axtjXIP3OSal3ZdvFP8SV2xfRVvqV+1WYUFwxLwgTsllRJs5bqorYf/sctdZFYtsjY2mw==",
+  "success": true,
+  "projectFilePath": "D:\\From D\\Top UP SE\\Application Development\\CW 1\\HCplus\\HCplus.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sTc\\.nuget\\packages\\hadatetimepicker\\1.4.2\\hadatetimepicker.1.4.2.nupkg.sha512",
+    "C:\\Users\\sTc\\.nuget\\packages\\krypton.toolkit\\70.22.11.312\\krypton.toolkit.70.22.11.312.nupkg.sha512",
+    "C:\\Users\\sTc\\.nuget\\packages\\mysqlconnector\\2.2.7\\mysqlconnector.2.2.7.nupkg.sha512"
+  ],
+  "logs": []
+}
